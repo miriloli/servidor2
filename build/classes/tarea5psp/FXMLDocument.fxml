@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="570.0" prefWidth="647.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tarea5psp.FXMLDocumentController">
+    <children>
+        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <TextField fx:id="txtUsuario" layoutX="145.0" layoutY="60.0" />
+      <TextField fx:id="txtPass" layoutX="145.0" layoutY="116.0" />
+      <TextField fx:id="txtRol" layoutX="145.0" layoutY="177.0" />
+      <Label layoutX="51.0" layoutY="64.0" prefHeight="18.0" prefWidth="54.0" text="Usuario" />
+      <Label layoutX="51.0" layoutY="120.0" prefHeight="18.0" prefWidth="77.0" text="Contraseña" />
+      <Label layoutX="51.0" layoutY="181.0" prefHeight="18.0" prefWidth="70.0" text="Rol" />
+      <Button fx:id="botonAltas" disable="true" layoutX="334.0" layoutY="60.0" mnemonicParsing="false" onAction="#altas" text="Altas" />
+      <Button layoutX="334.0" layoutY="116.0" mnemonicParsing="false" onAction="#validar" text="Validar" />
+      <Button fx:id="botonArrancar" disable="true" layoutX="477.0" layoutY="60.0" mnemonicParsing="false" onAction="#arrancarServidor" prefHeight="26.0" prefWidth="137.0" text="Arrancar Servidor" />
+      <Label layoutX="442.0" layoutY="120.0" prefHeight="18.0" prefWidth="53.0" text="Puerto" />
+      <TextField fx:id="txtPuerto" layoutX="503.0" layoutY="116.0" prefHeight="26.0" prefWidth="113.0" />
+      <TextArea fx:id="txtArea" layoutX="26.0" layoutY="225.0" prefHeight="315.0" prefWidth="600.0" />
+    </children>
+</AnchorPane>

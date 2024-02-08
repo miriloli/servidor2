@@ -41,7 +41,7 @@ public class Servidor extends Thread {
     }
 
     public static void disminuirStock(Integer ordenadoresDisminuidos) {
-        stockOrdenadores = stockOrdenadores - ordenadoresDisminuidos;
+        stockOrdenadores = stockOrdenadores + ordenadoresDisminuidos;
     }
 
     public static Integer consultarStock() {
